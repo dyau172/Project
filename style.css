@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav img {
+  width: 20vw;
+  object-fit: cover;
+}
+
+nav li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.hero {
+  position: relative;
+  background-image: url(./images/imgplaceholder.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 35% bottom 45%;
+  height: 50vh;
+}
+
+.hero-text {
+  width: 100vw;
+  position: absolute;
+  text-align: center;
+  top: 20vh;
+}
+
+.subscribe {
+  display: flex;
+  height: 15vh;
+  justify-content: center;
+}
+
+.subscribe button {
+  background-color: black;
+  color: white;
+}
+
+.subscribe-text {
+  position: relative;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 5vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 0.1fr repeat(3, 1fr);
+grid-template-rows: repeat(12, 1fr);
+  text-align: center;
+  color: white;
+  grid-gap: 10px;
+  height: 45vh;
+  width: 95%;
+  margin: auto;
+}
+
+.grid-cell-1 {
+  background-color: #898989;
+  grid-area: 1 / 1 / 13 / 5; 
+}
+
+.img-card-lg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/imgplaceholder.jpg);
+  height: 100%;
+  background-position: right 35% bottom 45%;
+}
+
+.img-card-sm {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/imgplaceholder.jpg);
+  height: 100%;
+  background-position: right 35% bottom 45%;
+  width: 100%;
+}
+
+.grid-cell-2 {
+  background-color: #658db5;
+  grid-area: 1 / 6 / 7 / 9;
+}
+
+.grid-cell-3 {
+  background-color: #658db5;
+  grid-area: 7 / 6 / 13 / 9
+}
+
+@media only screen and (min-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, 1fr) 0.1fr repeat(2, 1fr) 0.5fr;
+    grid-template-rows: repeat(12, 1fr);
+    width: 100%;
+  }
+  .grid-cell-1{
+    grid-area: 2 / 2 / 12 / 5;
+  }
+
+  .grid-cell-2 {
+    grid-area: 2 / 6 / 7 / 8;
+  }
+
+  .grid-cell-3 {
+    grid-area: 7 / 6 / 12 / 8;
+  }
+}
