@@ -9,6 +9,7 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 5vw;
+  width: 100%;
 }
 
 nav a {
@@ -28,6 +29,14 @@ nav li {
 
 nav ul {
   list-style-type: none;
+}
+
+.error{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  margin-top: 100px;
 }
 
 .hero {
@@ -99,6 +108,8 @@ grid-template-rows: repeat(12, 1fr);
   background-position: right 35% bottom 45%;
   width: 100%;
 }
+
+
 
 .grid-cell-2 {
   background-color: #658db5;
