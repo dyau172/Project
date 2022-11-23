@@ -1,0 +1,12 @@
+Must Haves
+- Minimum 2 html pages and 1 css
+- Consistant navbar on all pages
+- Styled well
+- All links working
+- Basic user interaction (ex: hover, submit form, action on click)
+
+Nice to have
+- All of the Must Have
+- Mobile responsive 
+- Effective use of classes and IDs
+- Javascript used to enable user interaction
