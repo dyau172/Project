@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-
 }
 
 #form{
@@ -36,6 +35,7 @@ nav {
   background-color: white;
   gap: 5vw;
   width: 100%;
+  height: 5vh;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -47,8 +47,9 @@ nav a {
 }
 
 nav img {
-  width: 20vw;
-  object-fit: cover;
+  width: auto;
+  /*object-fit: contain;*/
+  max-height: 5vh;
 }
 
 nav li {
