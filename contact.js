@@ -14,7 +14,7 @@ createForm.appendChild(horizontalLine);
 const lineBreak = document.createElement('br');
 createForm.appendChild(lineBreak);
 
-const nameLabel = document.createElement('label'); //creates a lable for the name fields
+const nameLabel = document.createElement('label'); //creates a label for the name fields
 nameLabel.innerHTML = 'Name:';
 createForm.appendChild(nameLabel);
 
