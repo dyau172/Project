@@ -1,10 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-#form{
+#form {
   display: flex;
   justify-content: center;
   text-align: left;
@@ -16,16 +16,31 @@
   box-shadow: 0 0 15px;
   width: 500px;
   height: 700px;
+}
 
-   
- }
-
- label{
-  float:left;
+#form h2 {
+  margin-top: 20px;
   padding: 10px;
-  font-size:16px;
-  }
+  text-align: center;
+}
 
+#form input {
+  width: 80%;
+  height: 35px;
+  border: 3px solid #bfbfbf;
+  display: flex;
+}
+
+#form {
+
+}
+
+
+label {
+  float: left;
+  padding: 10px;
+  font-size: 16px;
+}
 
 nav {
   display: flex;
@@ -70,7 +85,7 @@ nav ul {
   padding: 10vw;
 }
 
-.hero{
+.hero {
   position: relative;
   height: 50vh;
   width: 100vw;
@@ -97,8 +112,7 @@ nav ul {
   text-align: center;
   top: 20vh;
   font-size: 32px;
-  background-color: rgba(240, 240, 240, 0.5
-  )
+  background-color: rgba(240, 240, 240, 0.5);
 }
 
 .subscribe {
@@ -117,7 +131,7 @@ nav ul {
   margin-left: 9px;
 }
 
-.subscribe button:hover{
+.subscribe button:hover {
   color: gray;
 }
 
@@ -166,7 +180,6 @@ nav ul {
   width: 100%;
 }
 
-
 .img-card-sm2 {
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,12 +189,11 @@ nav ul {
   width: 100%;
 }
 
-.img-card-text{
-  position:relative;
+.img-card-text {
+  position: relative;
   top: 50%;
   color: black;
-  background-color: rgba(240, 240, 240, 0.5
-    );
+  background-color: rgba(240, 240, 240, 0.5);
 }
 
 /*
@@ -204,19 +216,18 @@ nav ul {
   grid-area: 7 / 8 / 13 / 11;
 }
 
-footer{
+footer {
   height: 20vh;
 }
 
-footer h3{
+footer h3 {
   padding: 10vh;
 }
 
-.img-card-text a{
+.img-card-text a {
   text-decoration: none;
 }
 
-.img-card-text a::hover{
-  color:rgba(240, 240, 240, 0.5
-    )
+.img-card-text a::hover {
+  color: rgba(240, 240, 240, 0.5);
 }
