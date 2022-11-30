@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Contact Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="./contact2.js"></script>
+  <title>Contact Page</title>
 </head>
+
 <body>
-    <nav>
-        <img src="./images/Somenews logo.jpg" alt="" />
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./404.html">World News</a></li>
-          <li><a href="./404.html">UK News</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-  
-        <form action="">
-          <input type="text" name="" id="" />
-        </form>
-      </nav>
+  <nav>
+    <img src="./images/Somenews logo.jpg" alt="" />
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./404.html">World News</a></li>
+      <li><a href="./404.html">UK News</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
 
-      <!--
+    <form action="">
+      <input type="text" name="" id="" />
+    </form>
+  </nav>
 
-      <form id="contact">
-            <label>First Name: <input type="text"></input></label>
-            <br/>
-            <label>Last Name: <input type="text"></input></label>
-            <br/>
-           <label>Email: <input type="email"></input></label>
-            <br/>
-              <label>Phone Number: <input type="tel"></input></label>
-            <br/>
-              <label>Message: <input type="message"></label>  
-      </form>
 
-    -->
+  <div class="main">
+    <form id="form">
+      <h2>Contact</h2>
+
+      <label>First Name: <input class="isInput" type="text"></input></label>
+
+      <br />
+      <label>Last Name: <input type="text"></input></label>
+      <br />
+      <label>Email: <input type="email"></input></label>
+      <br />
+      <label>Phone Number: <input type="tel"></input></label>
+      <br />
+      <label>Message: <input id="messageInput" type="message"></label>
+
+
+      <input id='buttonSub'type="submit" value="Submit">
+
+
+    </form>
+  </div>
+
+
+  <!--
     <div class="main">
-      <div id="form"></div>
+      <div id="form">
+      </div>
       <script src="./contact.js"></script>
+     
     </div>
-   
+  -->
 </body>
+
 </html>
