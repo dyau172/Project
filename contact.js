@@ -53,10 +53,21 @@ createForm.appendChild(inputMessage);
 createForm.appendChild(lineBreak);
 
 const submitButton = document.createElement('button');
+submitButton.setAttribute('type', 'text');
+submitButton.setAttribute('name', 'dsubmit');
+submitButton.innerText = `Submit`;
 createForm.appendChild(submitButton);
 
+submitButton.onclick = function()
+{
+    alert('Message Sent');
+    window.location.href = 'contact.html';
 
-function submitMessage(){
-    const subMessage = prompt('Message Sent');
-    alert(subMessage);
+
 }
+
+
+
+
+
+    
